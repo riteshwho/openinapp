@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+.container {
+  display: flex;
+  background-color: #f5f5f5;
+}
+.sidebar {
+  width: 20%;
+  margin: 15px;
+  background-color: black;
+  color: #ffffff;
+  height: 950px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.heading {
+  margin-left: 80px;
+  padding-top: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-large;
+}
+
+.list {
+  margin-left: 70px;
+}
+.list li {
+  margin-top: 30px;
+  display: flex;
+}
+
+.list-icons{
+  padding-right: 8px;
+}
+
+.active {
+  font-weight: bolder;
+}
+span {
+  padding: 5px;
+}
+
+.top-head {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 25px;
+  font-size: large;
+  padding-left: 50px;
+  width: 1000px;
+  height: 30px;
+  display: flex;
+}
+svg {
+  margin-top: 5px;
+}
+
+.top-head input {
+  margin-left: 600px;
+  width: 120px;
+  font-size: small;
+}
+
+.notification {
+  padding-left: 25px;
+}
+
+.profile {
+  padding-left: 20px;
+}
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.cards{
+    display: flex;
+}
+.one{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #ffc8dd;
+    opacity: 0.7;
+    margin-left: 50px;
+}
+.two{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #a2d2ff;
+    opacity: 0.7;
+    margin-left: 50px;
+}
+.three{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #c7f9cc;
+    opacity: 0.7;
+    margin-left: 50px;
+}
+.four{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #fde4cf;
+    opacity: 0.7;
+    margin-left: 50px;
+}
+.icons{
+    float: right;
+   
+}
+
+.card-name{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.card-value{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-weight: bolder;
+}
+
+
+
+@media only screen and (max-width: 393px){
+  .sidebar{
+    display: none;
+  }
+  .cards{
+    flex-direction: column;
+    padding-left: 30px;
+  }
+ .one{
+  padding-left: 50px;
+  width: 250px;
+  height: 100px;
+ }
+ .two{
+  padding-left: 50px;
+  width: 250px;
+  height: 100px;
+ }
+ .three{
+  padding-left: 50px;
+  width: 250px;
+  height: 100px;
+ }
+ .four{
+  padding-left: 50px;
+  width: 250px;
+  height: 100px;
+ }
+ .card-name{
+  font-size: large;
+ }
+ .card-value{
+  font-size: large;
+ }
+.pie{
+  flex-direction: column;
+}
+.schedule{
+  padding-left: 0;
+}
+}
